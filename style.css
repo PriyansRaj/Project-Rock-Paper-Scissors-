@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: #354c5a;
+}
+body{
+    border: 5px dotted #a54373;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+h1{
+    text-align: center;
+    color:aqua;
+    font-size: 5em;
+}
+h2{
+    color:antiquewhite;
+    font-size: 3em;
+    font-style:oblique;
+}
+div{
+    font-size: 1.5em;
+    font-style: italic;
+    color:gold;
+}
+button{
+    padding:10px;
+    background-color: teal;
+    font-weight: bolder;
+    font-size: 15px;
+}
