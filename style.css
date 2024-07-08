@@ -2,34 +2,97 @@
     margin:0px;
     padding:0px;
     background-color: #354c5a;
+    
 }
 body{
-    border: 5px dotted #a54373;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:10px;
+    border: 3px saddlebrown dotted;
+    padding:50px;
 }
-h1{
+
+#title{
     text-align: center;
     color:aqua;
     font-size: 5em;
 }
-h2{
-    color:antiquewhite;
-    font-size: 3em;
-    font-style:oblique;
+.games{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
-div{
-    font-size: 1.5em;
-    font-style: italic;
-    color:gold;
+img{
+    width: 400px;
+    border: 3px solid purple;
+}
+.images{
+    /* width: 33%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    margin-left: -100px;
+    justify-content: flex-start;
+    border: #400727 3px dotted;
+    padding:20px;
+
 }
 button{
-    padding:10px;
-    background-color: teal;
-    font-weight: bolder;
-    font-size: 15px;
+    padding: 30px;
+    width: 250px;
+    font-weight: 900;
+    font-style: oblique;
+    color:  #400727;
+    font-size: 30px;
+    background-color: #7f8c8d;
+}
+
+button:hover{
+    background-color: coral;
+    cursor: pointer;
+    color:black;
+    font-size: 2.5em;
+    border:4px solid  #5c0a69 ;
+}
+.user{
+    margin-left:5em;
+}
+.user,.computer{
+    color:mediumvioletred;
+}
+#User_input,#Computer_Input {
+    margin-bottom: 50px;
+}
+#User_input img ,#Computer_Input img{
+    margin-top: 50px;
+}
+#Computer_Input{
+    text-align: center;
+
+}
+#ScoreBoard{
+    margin-top: 50px;
+    
+    border: 4px dotted #400727;
+    padding: 50px;
+}
+#ScoreBoard h1{
+    color:aquamarine;
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#result{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#User_result,#Comp_result,#status{
+    background-color:gray;
+    padding:20px;
+    color:black;
+    font-size: 2em;
 }

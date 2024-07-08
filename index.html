@@ -7,18 +7,27 @@
     <title>Game</title>
 </head>
 <body>
-    <h1>Welcome Player</h1>
-    <h2>Rules</h2>
-   <div>
-    <ul>
-        <li>Enter rock for Rock</li>
-        <li>Enter scissors for Scissors</li>
-        <li>Enter paper for paper</li>
-        <li>Click the given below to start</li>
-        <li>And Enjoy and try to get full score</li>
-    </ul>
-   </div>
-    <button id="#button">Let's play</button>
+    <h1 id="title">Welcome Player</h1>
+
+    <div class="games">
+        <div class="images">
+        <h1 id="choices">Choose any one of the options</h1>
+          <button id="Rock">Rock</button>
+          <button id="Paper">Paper</button>
+          <button id="Scissors">Scissors</button>
+        </div>
+        <div id="User_input"><h1 class="user">User</h1></div>
+        <div id="Computer_Input"><h1 class="computer">Computer</h1></div>
+    </div>
+    <div id="ScoreBoard">
+        <h1>Score</h1>
+        <div id="result">
+            <div id="User_result">You: 0 </div>
+            <div id="status">Result: None</div>
+        <div id="Comp_result">Computer: 0</div>
+    </div>
+    </div>
+   
     <script src="script.js"></script>
 </body>
 </html>
